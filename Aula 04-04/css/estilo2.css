@@ -1,0 +1,93 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+</style>
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background:linear-gradient(#010326,#030A8C,#D9D9D9);
+	background-size:100vw 100vh;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+img{
+	width:20vw; /*view widht - visão de largura */
+	height:10vw; /*view height - visão de altura */
+	opacity: 1.0;
+	border-radius:16px;
+}
+section.cabecalho h1{
+	color: #000000;
+	text-align: center;
+	font-size:32pt;
+	font-family: "Geologica", sans-serif;
+	text-transform: uppercase;
+}
+section.cabecalho{
+	width: 80vw;
+	height: 5vh;
+	margin-top: 1vw;
+	margin-left: 10vw;
+	background-color:white;
+	border:3px solid;
+	border-radius: 16px;
+	flex-direction: column;
+	text-align: center;
+}
+section.conteudo{
+	width: 80vw;
+	height: 20vw;
+	margin-left: 10vw;
+	margin-top: 3vh;
+	background-color: white;
+	border:3px solid;
+	border-radius: 16px;
+}
+#texto{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+#texto p{
+	font-size: 14pt;
+	font-family: "Geologica", sans-serif;
+}
+#imagem{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+#imagem img{
+	max-width: 90%;
+	max-height: 90%;
+	width: auto;
+	height: auto;
+}
+section.link{
+	width: 80vw;
+	height: 5vh;
+	margin-top: 3vh;
+	margin-left: 20vh;
+	background-color: white;
+	border: 3px solid black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+section.link div a{
+	font-size: 1.2vw;
+	color: blue;
+	font-family: "Geologica", sans-serif;
+}
+section.link div a:hover{
+	color: orange;
+}
